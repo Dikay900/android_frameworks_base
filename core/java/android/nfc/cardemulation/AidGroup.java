@@ -62,11 +62,8 @@ public class AidGroup implements Parcelable {
 
     private static final String TAG = "AidGroup";
 
-    @UnsupportedAppUsage
     protected List<String> aids;
-    @UnsupportedAppUsage
     protected String category;
-    @UnsupportedAppUsage
     protected String description;
 
     /**
