@@ -62,9 +62,9 @@ public class AidGroup implements Parcelable {
 
     private static final String TAG = "AidGroup";
 
-    protected List<String> aids;
-    protected String category;
-    protected String description;
+    protected List<String> mAids;
+    protected String mCategory;
+    protected String mDescription;
 
     /**
      * Creates a new AidGroup object.

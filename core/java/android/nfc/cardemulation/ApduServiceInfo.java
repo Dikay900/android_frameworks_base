@@ -103,7 +103,6 @@ public class ApduServiceInfo implements Parcelable {
     /**
      * Mapping from category to dynamic AID group
      */
-    @UnsupportedAppUsage
     protected HashMap<String, AidGroup> mDynamicAidGroups;
 
     /**
@@ -130,6 +129,11 @@ public class ApduServiceInfo implements Parcelable {
      * Settings Activity for this service
      */
     protected String mSettingsActivityName;
+
+    /**
+     * State of the service for CATEGORY_OTHER selection
+     */
+    protected boolean mOtherServiceEnabled;
 
     /**
      * @hide
