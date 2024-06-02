@@ -71,7 +71,6 @@ public class ApduServiceInfo implements Parcelable {
     /**
      * The service that implements this
      */
-    @UnsupportedAppUsage
     protected ResolveInfo mService;
 
     /**
@@ -99,7 +98,6 @@ public class ApduServiceInfo implements Parcelable {
     /**
      * Mapping from category to static AID group
      */
-    @UnsupportedAppUsage
     protected HashMap<String, AidGroup> mStaticAidGroups;
 
     /**
@@ -130,11 +128,6 @@ public class ApduServiceInfo implements Parcelable {
 
     /**
      * Settings Activity for this service
-     */
-    private final String mSettingsActivityName;
-
-    /**
-     * State of the service for CATEGORY_OTHER selection
      */
     protected String mSettingsActivityName;
 
